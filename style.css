@@ -1,0 +1,133 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family:'Courier New', Courier, monospace
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  background-color: #1f2937;
+  flex: 2;
+}
+
+
+.information, .signup {
+  background-color: white;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  background-color:#E5E7EB;
+  flex: 2;
+}
+
+.footer, .header {
+  background-color: #1f2937;
+  flex: 0 0 50px;
+
+}
+
+
+.signupbox {
+  background-color: #3882F6 ;
+  padding: 40px;
+  width: 30%;
+  border-radius: 12px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+.signup {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+p1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #3882F6;
+  color: white;
+  border-color: white;
+  display: flex;
+  margin-left: auto;
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textsignup {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textquote {
+  font-size: 36px;
+  color: #1F2937;
+  margin-top: 32px;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.box1, .box2, .box3, .box4 {
+  height: 100px;
+  width: 100px;
+  border: solid #3882F6 2px;
+  border-radius: 12px;
+
+}
+
+.infoboxes {
+  gap: 90px;
+  display: flex;
+}
+
+.information{
+  flex-direction: column;
+  gap: 10px;
+}
+
+b {
+  font-size: 36px
+}
+
+
+.description {
+  display: flex;
+  
+}
