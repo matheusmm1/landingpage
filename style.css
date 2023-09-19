@@ -196,9 +196,20 @@ b {
 }
 
 .intro-image {
-  background-color: grey;
   display: flex;
-  width: 600px;
-  height: 300px;
 
+}
+
+.squirtle, .charmander, .bulbasaur, .pikachu {
+  border-radius: 12px;
+}
+
+.boxes-text {
+  display: flex;
+  gap: 95px;
+}
+
+.squirtle-box, .charmander-box, .bulbasaur-box, .pikachu-box {
+  width: 100px;
+  flex-wrap: wrap;
 }
