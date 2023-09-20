@@ -69,6 +69,7 @@ body, html {
   font-size: 24px;
   align-items: center;
   display: flex;
+  gap: 30px;
 }
 
 .right-elements {
@@ -212,4 +213,9 @@ b {
 .squirtle-box, .charmander-box, .bulbasaur-box, .pikachu-box {
   width: 100px;
   flex-wrap: wrap;
+}
+
+.oakface {
+  order: -1;
+  height: 50px;
 }
