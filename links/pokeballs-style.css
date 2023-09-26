@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #E5E7EB;
+  }
+
+  
+
+  .footer, .header {
+    background-color: #1f2937;
+    flex: 0 0 50px;
+    
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-elements{
+    color: #F9FAF8;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .right-elements {
+    color:#E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  
+  }
+  
+  .header, .intro {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  .oakface {
+    order: -1;
+    height: 50px;
+  }
+  
+  .linkbutton {
+    text-decoration: none;
+    color: inherit;
+  
+  }
+  
+  .linkbutton:hover {
+    filter: brightness(50%);
+  
+  }
+
+  .intro {
+  font-size: 24px;
+  font-weight: bold;
+
+
+  }
+
+  .pokeballs {
+  flex: 0.5;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  align-items: center;
+  }
+
+  .pokeballinfo {
+  list-style: circle;
+  display: flex;
+  justify-content: space-evenly;
+
+
+  }
+
+
+  li {
+  width: 315px;
+
+
+  }
