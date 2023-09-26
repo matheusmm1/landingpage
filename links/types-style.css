@@ -13,6 +13,7 @@ body, html {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  background-color: #E5E7EB;
 }
 
 
@@ -73,3 +74,122 @@ body, html {
   filter: brightness(50%);
 
 }
+
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.types-row-one {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+
+b {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.snorlax {
+  background-color: grey;
+}
+
+.psyduck {
+  background-color: blue;
+}
+
+.magmar {
+  background-color: red;
+}
+
+.elekid {
+  background-color: rgb(173, 173, 0);
+}
+
+.gengar {
+  background-image: linear-gradient(to right, rgb(0, 9, 138), rgb(102, 48, 226) );
+
+}
+
+.kabutops {
+  background-image: linear-gradient(to right, brown, blue );
+}
+
+.sandshrew {
+  background-color: sandybrown;
+}
+
+.sunflora {
+  background-color: green;
+}
+
+.pinsir {
+  background-color: darkolivegreen;
+}
+
+.arbok {
+  background-color: rgb(102, 48, 226) ;
+
+}
+
+.jynx {
+  background-image: linear-gradient(to right, aqua, deeppink);
+
+}
+
+.houndoom{
+  background-image: linear-gradient(to right, black, red);
+
+}
+
+.mewtwo {
+  background-color: deeppink;
+
+}
+
+.dragonite {
+  background-image: linear-gradient(to right, rgb(101, 111, 252), rgb(55, 119, 156));
+}
+
+.farfetchd {
+  background-image: linear-gradient(to right, grey, rgb(55, 119, 156));
+}
+
+.scizor {
+  background-image: linear-gradient(to right, darkolivegreen, rgb(78, 78, 78));
+}
+
+.hitmonlee {
+  background-color: tan;
+
+}
+.straight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 15px solid white;
+}
+.clefairy {
+  background-color: pink;
+}
+
+.types-all {
+  border: 50px solid white;
+
+}
+
+.typesinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
