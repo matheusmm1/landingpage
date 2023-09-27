@@ -13,6 +13,7 @@ body, html {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  background-color:#E5E7EB;
 }
 
 
@@ -72,4 +73,57 @@ body, html {
 .linkbutton:hover {
   filter: brightness(50%);
 
+}
+
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.starters-images {
+  background-color: white;
+
+}
+
+.starters-images {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.straight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 15px solid white;
+}
+
+.turtwig {
+  background-color: green;
+}
+
+.chimchar {
+  background-color: red;
+}
+
+.piplup {
+  background-color: blue;
+}
+
+b {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
